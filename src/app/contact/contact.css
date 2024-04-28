@@ -1,0 +1,9 @@
+.element {
+
+  transition-property: width, height;
+  transition-duration: 0.5s;
+}
+
+.element:hover {
+  width: 500px;
+}

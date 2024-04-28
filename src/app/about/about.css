@@ -1,0 +1,17 @@
+@keyframes translate {
+  10% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(800px);
+  }
+  100% {
+    transform: translateX(10);
+  }
+}
+
+.el {
+  animation-name: translate;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
